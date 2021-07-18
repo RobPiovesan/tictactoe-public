@@ -1,0 +1,414 @@
+.comp-container {
+  background-color: rgb(252, 252, 252);
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 15px;
+}
+
+.title-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 33pt;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.padding-sides-10 {
+  padding: 10px;
+}
+
+.fit-content {
+  max-width: fit-content;
+}
+
+.row {
+  justify-content: center;
+}
+
+.mid-row {
+  border-bottom: 13px solid black;
+  border-top: 13px solid black;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.mid-col {
+  border-left: 13px solid black;
+  border-right: 13px solid black;
+}
+
+.game-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 960px;
+  min-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.gameButton {
+  width: 90px;
+  height: 97px;
+  border: none;
+  background-color: rgba(250, 215, 215, 0);
+  margin: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+}
+
+.nv-ftr {
+  background-color: rgb(248, 248, 248);
+}
+
+.ftr {
+  min-height: 60px;
+  max-height: 60px;
+  min-width: 100%;
+}
+
+.nav-inner {
+  display: inline;
+}
+
+.game-home {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+  padding: 30px;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.tictactoe-container {
+  max-width: 530px;
+  min-width: 530px;
+  float: right;
+  padding: 50px;
+}
+
+.player {
+  max-width: 330px;
+  min-width: 330px;
+}
+
+.winner {
+  border: 1px solid rgba(84, 255, 49, 0.918);
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(0, 255, 0, 0.041);
+}
+
+.loser {
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.round-img {
+  display: inline;
+  border-radius: 50%;
+}
+
+.name {
+  display: inline-block;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
+
+.img-sm {
+  width: 50px;
+  height: 50px;
+}
+
+.black {
+  color: black;
+}
+
+.subheading {
+  color: rgb(95, 95, 95);
+  font-weight: 500;
+  font-size: medium;
+}
+
+.border-1 {
+  display: inline-block;
+  max-width: fit-content;
+  border-right: 1px solid rgb(180, 180, 180);
+}
+
+.xPlayer-btn {
+  background-image: url(./icons/cross.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.xPlayer {
+  background: url(./icons/cross.svg);
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oPlayer {
+  background: url(./icons/circle.svg);
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oPlayer-btn {
+  background-image: url(./icons/circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.github {
+  background: url(./icons/github.svg);
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  margin: 15px;
+}
+
+.linkedin {
+  background: url(./icons/linkedin.svg);
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  margin: 15px;
+}
+
+.sign-out {
+  background-image: url(./icons/logout.svg);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+  position: absolute;
+}
+
+.ctr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* small displays */
+@media (max-width: 1500px) {
+  .tictactoe-container {
+    max-width: 450px;
+    min-width: 450px;
+  }
+
+  .gameButton {
+    width: 75px;
+    height: 82px;
+    margin: 2px;
+  }
+
+  .mid-row {
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+  }
+
+  .mid-col {
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+  }
+
+  .player {
+    max-width: 360px;
+    min-width: 360px;
+  }
+
+  .game-container {
+    max-width: 850px;
+    min-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  }
+}
+
+/* mobile */
+@media (max-width: 900px) {
+  .gameButton {
+    width: 70px;
+    height: 77px;
+    margin: 2px;
+  }
+
+  .tictactoe-container {
+    max-width: 600px;
+    min-width: 600px;
+    align-content: center;
+  }
+
+  .game-container {
+    max-width: 600px;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  }
+  .player {
+    max-width: 600px;
+    min-width: 600px;
+    margin-bottom: 30px;
+  }
+  .mid-row {
+    border-bottom: 7px solid black;
+    border-top: 7px solid black;
+  }
+
+  .mid-col {
+    border-left: 7px solid black;
+    border-right: 7px solid black;
+  }
+
+  .xPlayer {
+    width: 25px;
+    height: 25px;
+  }
+  .oPlayer {
+    width: 25px;
+    height: 25px;
+  }
+
+  .img-sm {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* mid mobile */
+@media (max-width: 650px) {
+  .tictactoe-container {
+    max-width: 90vw;
+    min-width: 90vw;
+  }
+
+  .game-container {
+    max-width: 90vw;
+    min-width: 90vw;
+  }
+  .player {
+    max-width: 90vw;
+    min-width: 90vw;
+  }
+
+  .username {
+    visibility: hidden;
+    position: absolute;
+  }
+  .gameButton {
+    width: 50px;
+    height: 60px;
+    margin: 2px;
+  }
+}
+
+/* small mobile */
+@media (max-width: 380px) {
+  .gameButton {
+    width: 35px;
+    height: 50px;
+    margin: 2px;
+  }
+
+  .mid-row {
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+  }
+
+  .mid-col {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  }
+}
+
+@media (max-width: 330px) {
+  .tictactoe-container {
+    max-width: 275px;
+    min-width: 275px;
+    align-content: center;
+    padding: 40px;
+  }
+  .game-container {
+    max-width: 275px;
+    min-width: 275px;
+  }
+  .player {
+    max-width: 275px;
+    min-width: 275px;
+  }
+}
+
+/* min mobile */
+@media (max-width: 280px) {
+  .tictactoe-container {
+    max-width: 220px;
+    min-width: 220px;
+    align-content: center;
+    padding: 20px;
+  }
+  .game-container {
+    max-width: 220px;
+    min-width: 220px;
+  }
+  .player {
+    max-width: 220px;
+    min-width: 220px;
+  }
+
+  .gameButton {
+    margin: 0;
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 284.59 284.59" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-111.7 -.57785)" fill-rule="evenodd" stroke-width=".29751">
+  <rect transform="matrix(.7141 -.70005 .7141 .70005 0 0)" x="55.134" y="107.94" width="41.333" height="343.91"/>
+  <rect transform="matrix(-.7141 -.70005 .7141 -.70005 0 0)" x="-300.56" y="-96.156" width="41.333" height="343.91"/>
+ </g>
+ <g display="none">
+  <rect x="116.23" y="38.573" width="29.315" height="166.12" fill-rule="evenodd" stroke-width=".26458"/>
+ </g>
+ <g transform="translate(-111.7 -.57785)" display="none">
+  <path d="m254 0.57785a142.3 142.3 0 0 0-142.3 142.3 142.3 142.3 0 0 0 142.3 142.3 142.3 142.3 0 0 0 142.3-142.3 142.3 142.3 0 0 0-142.3-142.3zm0 39.416a102.88 102.88 0 0 1 102.88 102.88 102.88 102.88 0 0 1-102.88 102.88 102.88 102.88 0 0 1-102.88-102.88 102.88 102.88 0 0 1 102.88-102.88z" display="inline" fill-rule="evenodd" stroke-width=".37265"/>
+ </g>
+</svg>
